@@ -9,7 +9,7 @@ let activeSlidIndex = 0;
 
 sidebar.style.top = `-${(slidesCount - 1) * 100}vh`;
 
-downBtn.addEventListener("click", () => {
+upBtn.addEventListener("click", () => {
   changeSlide("up");
 });
 downBtn.addEventListener("click", () => {
