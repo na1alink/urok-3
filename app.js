@@ -21,11 +21,11 @@ function changeSlide(direction) {
     activeSlidIndex++;
     if (activeSlidIndex === slidesCount) {
       activeSlidIndex = 0;
-    } else if (direction === "down") {
-      activeSlidIndex--;
-      if (activeSlidIndex < 0) {
-        activeSlidIndex = slidesCount - 1;
-      }
+    }
+  } else if (direction === "down") {
+    activeSlidIndex--;
+    if (activeSlidIndex < 0) {
+      activeSlidIndex = slidesCount - 1;
     }
   }
 
